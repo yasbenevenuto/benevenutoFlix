@@ -1,0 +1,65 @@
+/* BODY ----------------------------------------------------------------------------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat medium;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER ----------------------------------------------------------------------------------------------------------------------------------------------- */
+h1{
+    text-align: center;
+    color: #FF8FCD;
+    background-color: black;
+}
+
+/* MAIN ----------------------------------------------------------------------------------------------------------------------------------------------- */
+main{
+    flex: 1;
+    padding: 20px;
+}
+
+section{
+    display: flex; 
+    gap: 20px;
+}
+
+img{
+    height: 300px;
+}
+
+h2{
+    color: #FF8FCD;
+}
+
+section, h2, p, table{
+    margin-bottom: 20px;
+}
+
+table{
+    text-align: center;
+    width: 20%; 
+    border-collapse: collapse; 
+}
+
+
+/* FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------- */
+footer {
+    background-color:  black;
+    color:  #FF8FCD;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5rem;
+}
+

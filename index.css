@@ -1,0 +1,70 @@
+/* BODY ---------------------------------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1D1D1C;
+    color: whitesmoke; 
+    font-family: Montserrat Medium;
+}
+
+
+/* GERMINAFLIX ---------------------------------------------------------------------------------------------------- */
+header {
+    padding: 20px;
+    width: 95%;
+    text-align: center;
+}
+
+
+/* BLOCO DO MEIO ----------------------------------------------------------------------------------------------------- */
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #FF8FCD;
+    color: black;
+    border: 0;
+    border-radius: 10px;
+    margin: 0 auto; 
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* RODAPÉ ----------------------------------------------------------------------------------------------------- */
+footer {
+    background-color:  black;
+    color:  #FF8FCD;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+}
